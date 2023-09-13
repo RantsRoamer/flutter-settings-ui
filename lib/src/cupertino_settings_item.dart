@@ -165,7 +165,7 @@ class CupertinoSettingsItemState extends State<CupertinoSettingsItem> {
                 value: widget.switchValue!,
                 activeColor: widget.enabled
                     ? (widget.switchActiveColor ??
-                        colorScheme.secondayColor
+                        colorScheme.secondayColor)
                     : CupertinoColors.inactiveGray,
                 onChanged: !widget.enabled
                     ? null
