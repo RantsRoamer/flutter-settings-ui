@@ -88,7 +88,7 @@ class SettingsSection extends AbstractSection {
             title!,
             style: titleTextStyle ??
                 TextStyle(
-                  color: Theme.of(context).accentColor,
+                  color: colorScheme.secondayColor,
                   fontWeight: FontWeight.bold,
                 ),
             maxLines: maxLines,
